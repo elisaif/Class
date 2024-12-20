@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "massimiliano-morosinotto-PlRRMpAWZKU-unsplash"
+                ]
+            },
+            "height": 960,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 30
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 60
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 120
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 240
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 480
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 960
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 640,
+                                        "@id": "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 960,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://elisaif.github.io/Class/images/pic/canvas/",
             "type": "Canvas",
             "label": {
