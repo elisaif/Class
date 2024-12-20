@@ -21,27 +21,35 @@
       "@id" : "http://6a7481f0-4412-4cde-ab13-2a69bf0c91be",
       "@type" : "sc:Canvas",
       "label" : "Empty canvas",
-      "height" : 427,
+      "height" : 966,
       "width" : 640,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://d54da5f3-1cba-4cc8-b10d-5b9a0b075043",
+        "@id" : "http://fa903043-1364-455e-88b3-f5439e792cd7",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/full/full/0/default.jpg",
+          "@id" : "https://elisaif.github.io/Class/images/pic/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash",
+            "@id" : "https://elisaif.github.io/Class/images/pic",
             "profile" : "http://iiif.io/api/image/2/level0.json"
           },
-          "height" : 427,
+          "height" : 966,
           "width" : 640
         },
         "on" : "http://6a7481f0-4412-4cde-ab13-2a69bf0c91be"
       } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0b27f5c3-b0b9-4c01-80e8-279194638b24",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
       "related" : ""
     } ]
   } ],
