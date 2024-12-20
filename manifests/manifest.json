@@ -9,7 +9,7 @@
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "Elina S",
   "sequences" : [ {
     "@id" : "http://35097af7-460c-45f7-acef-296014a24825",
     "@type" : "sc:Sequence",
