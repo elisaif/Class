@@ -1,0 +1,13 @@
+{
+  "id" : "https://elisaif.github.io/Class/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in elisaif/Class project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://elisaif.github.io/Class/manifests/manifest.json",
+    "label" : "Example 20.12.24"
+  } ]
+}
