@@ -2,10 +2,10 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://elisaif.github.io/Class/manifests/manifest_2.json",
   "@type" : "sc:Manifest",
-  "label" : "Mountains",
+  "label" : "Example 20.12.24",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "Example of the manifest (mountains)",
+    "@value" : "Example of the manifest (a girl + mountains + Turin)",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
@@ -20,7 +20,7 @@
     "canvases" : [ {
       "@id" : "http://6a7481f0-4412-4cde-ab13-2a69bf0c91be",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "A girl",
       "height" : 966,
       "width" : 640,
       "images" : [ {
@@ -44,12 +44,56 @@
       } ],
       "related" : ""
     }, {
-      "@id" : "http://0b27f5c3-b0b9-4c01-80e8-279194638b24",
+      "@id" : "http://74824051-dc69-48da-ab3f-2c61c1a7bc0f",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
-      "height" : 0,
-      "width" : 0,
-      "images" : [ ],
+      "label" : "Mountains",
+      "height" : 427,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://13cfedef-db2d-4a7c-b618-78cdd2d3e7f4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 427,
+          "width" : 640
+        },
+        "on" : "http://74824051-dc69-48da-ab3f-2c61c1a7bc0f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://65377785-912a-4a77-bef5-518ec3d5f217",
+      "@type" : "sc:Canvas",
+      "label" : "Turin",
+      "height" : 960,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://45ece8f4-f9e2-45f7-966c-af0a4acde080",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/Class/images/massimiliano-morosinotto-PlRRMpAWZKU-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 960,
+          "width" : 640
+        },
+        "on" : "http://65377785-912a-4a77-bef5-518ec3d5f217"
+      } ],
       "related" : ""
     } ]
   } ],
