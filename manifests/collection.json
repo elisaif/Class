@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://elisaif.github.io/Class/manifests/manifest.json",
     "label" : "Example 20.12.24"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://elisaif.github.io/Class/manifests/manifest_2.json",
+    "label" : "Example #2 20.12.24"
   } ]
 }
