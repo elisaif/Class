@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "piermario-eva-DtnEHq0u850-unsplash"
+                ]
+            },
+            "height": 427,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 14
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 27
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 54
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 107
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 214
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 427
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 640,
+                                        "@id": "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 427,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://elisaif.github.io/Class/images/pic/canvas/",
             "type": "Canvas",
             "label": {
