@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://elisaif.github.io/Class/manifests/manifest_2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Example #2 20.12.24",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Example of the Manifest (mountains)",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Elina S",
+  "sequences" : [ {
+    "@id" : "http://35097af7-460c-45f7-acef-296014a24825",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://5fa00729-e880-404f-b2ee-0dbd098d44fb",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 1",
+      "height" : 966,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://262df584-4d4f-4887-871c-0747cce64e28",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/Class/images/pic/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/Class/images/pic",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 966,
+          "width" : 640
+        },
+        "on" : "http://5fa00729-e880-404f-b2ee-0dbd098d44fb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e3119089-8bec-4c6f-bd47-aefec25fe841",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 427,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5dde6b91-fda6-480e-a3cd-cfe750de6192",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://elisaif.github.io/Class/images/piermario-eva-DtnEHq0u850-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 427,
+          "width" : 640
+        },
+        "on" : "http://e3119089-8bec-4c6f-bd47-aefec25fe841"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
